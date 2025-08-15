@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
-    "lib": ["ES2021", "dom"],
+    "target": "es2018",
+    "module": "es2020",
+    "lib": [
+      "ES2021",
+      "dom"
+    ],
     "declaration": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -10,7 +13,12 @@
     "inlineSourceMap": true,
     "inlineSources": true,
     "strict": true,
-    "types": ["@types/offscreencanvas", "@types/jasmine", "@webgpu/types", "node"],
+    "types": [
+      "@types/offscreencanvas",
+      "@types/jasmine",
+      "@webgpu/types",
+      "node"
+    ],
     "rootDirs": [
       ".",
       "./bazel-out/host/bin",
